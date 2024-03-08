@@ -1,0 +1,74 @@
+Button:hover{
+    background-color:rgb(255, 0, 254);
+    width:90%;
+    height: 10vh;
+}
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    min-width: max-content;
+    font-size: medium !important;
+    background-color: #b8b1b1;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-transform: capitalize;
+  }
+  
+  .tooltip-text_img {
+    
+    min-width: max-content;
+    font-size: medium !important;
+    background-color: #b8b1b1;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 4%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-transform: capitalize;
+  }
+
+ 
+  img:hover {
+    content: url("../images/DSC_3159.JPG");
+    transition: ease-in-out;
+  }
+  .navigation_links{
+    margin-left: 40%;
+    text-transform: uppercase;
+}
+.btn-outline-light{
+    border: 1px solid rgb(255, 0, 254);
+    color: black;
+}
+.btn-outline-light:hover{
+    background-color:rgb(255, 0, 254);
+    
+}
+  
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  .tooltip-container:hover .tooltip-text_img {
+    visibility: visible;
+    opacity: 1;
+  }
